@@ -162,6 +162,46 @@ body {
   margin: 0 auto;
 }
 
+/* =========================
+   Account Page Styles
+   ========================= */
+
+.content-section {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 2rem;
+}
+
+.media {
+  display: flex;
+  align-items: center;
+}
+
+.account-img {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;        /* 🔥 prevents image distortion */
+  border-radius: 50%;       /* perfect circle */
+  margin-right: 1.5rem;
+  border: 4px solid #667eea;
+  background-color: #f1f1f1;
+}
+
+.account-heading {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.media-body p {
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: #4a5568;
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .blog-post {
