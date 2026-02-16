@@ -1,11 +1,7 @@
-from wtforms import ValidationError
 from flaskblog import db, login_manager
 from datetime import datetime
 from flask_login import UserMixin
 from itsdangerous import URLSafeTimedSerializer as Serializer
-from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired, Email
-from flask_wtf import FlaskForm
 from flask import current_app
 
 @login_manager.user_loader
